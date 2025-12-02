@@ -15,6 +15,9 @@
         Blunt: 10
   - type: PluralName # imp
     oneOf: plural-name-pair-1
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 300 #imp edit end
 
 - type: entity
   parent: [ClothingEyesBase, BaseLensSlot] # BaseLensSlot from imp
@@ -36,6 +39,9 @@
         Blunt: 10
   - type: PluralName # imp
     oneOf: plural-name-pair-1
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 300 #imp edit end
 
 
 - type: entity
@@ -58,6 +64,9 @@
         Blunt: 10
   - type: PluralName # imp
     oneOf: plural-name-pair-1
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 300 #imp edit end
 
 
 - type: entity
@@ -82,6 +91,9 @@
     - WhitelistChameleon
   - type: PluralName # imp
     oneOf: plural-name-some
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 300 #imp edit end
 
 
 - type: entity

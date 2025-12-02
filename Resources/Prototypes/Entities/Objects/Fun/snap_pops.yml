@@ -33,6 +33,9 @@
     maxIntensity: 0.01
     intensitySlope: 1
     totalIntensity: 0.01
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 25 #imp edit end
 
 - type: entity
   parent: BaseStorageItem
@@ -55,4 +58,7 @@
       - id: SnapPop
         amount: 5
   - type: Dumpable
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Cardboard: 300 #imp edit end
 

@@ -15,6 +15,9 @@
     tags:
     - Kangaroo # Kangaroo wearable. Dare to challenge the champ?
     - WhitelistChameleon
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Gold: 300 #imp edit end
 
 - type: entity
   parent: ClothingBeltBase

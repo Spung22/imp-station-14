@@ -63,6 +63,9 @@
     closeToolQualityNeeded: null # can't exactly un-cut a book
     hasVerbs: false
     name: secret-stash-book
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Paper: 300 #imp edit end
 
 - type: entity
   parent: BaseItem
@@ -108,6 +111,9 @@
     closeToolQualityNeeded: null # can't exactly un-cut a book
     hasVerbs: false
     name: secret-stash-book
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Paper: 300 #imp edit end
 
 - type: entity
   id: BookSpaceEncyclopedia

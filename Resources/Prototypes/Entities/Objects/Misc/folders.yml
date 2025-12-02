@@ -17,6 +17,9 @@
     sound:
       path: /Audio/Effects/packetrip.ogg
   - type: Appearance
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Paper: 50 #imp edit end
 
 - type: entity
   parent: BoxBase
@@ -64,6 +67,9 @@
   - type: Tag
     tags:
     - Folder
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Paper: 50 #imp edit end
 
 - type: entity
   abstract: true
@@ -82,6 +88,9 @@
       prob: 0.2
     - id: Paper
       prob: 0.2
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Paper: 50 #imp edit end
 
 - type: entity
   abstract: true
@@ -92,6 +101,9 @@
     contents:
     - id: Paper
       amount: 3
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Paper: 50 #imp edit end
 
 - type: entity
   parent: [BoxFolderBaseEmpty, BoxFolderFill]

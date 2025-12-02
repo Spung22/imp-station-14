@@ -42,6 +42,10 @@
     damage:
       types:
         Blunt: 2
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 200 
+      Cloth: 100 #imp edit end
 
 - type: entity
   parent: MrChips

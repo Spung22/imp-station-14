@@ -12,3 +12,6 @@
     quickEquip: false
     slots:
     - Neck
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Cardboard: 100 #imp edit end
