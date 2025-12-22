@@ -751,6 +751,10 @@
     - FloorConcreteTilesStatic
     - CircuitFloorsStatic
     - FloorMarbleTilesStatic
+    - FloorTilesCarpetStaticImp #imp edits start
+    - FloorTilesDepartmentalStaticImp
+    - FloorTilesShuttleStaticImp
+    - FloorTilesSpecialStaticImp #imp edits end
     dynamicPacks:
     - FauxTiles
   - type: MaterialStorage
@@ -761,4 +765,10 @@
         - Wooden
         - RawMaterial
         - Plastic
+        - Gold #imp edits start
+        - Silver
+        - Uranium
+        - Plamsa
+        - Brass
+        - Cloth # imp edits end
   - type: OreSiloClient

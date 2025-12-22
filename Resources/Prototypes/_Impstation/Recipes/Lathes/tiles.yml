@@ -7,7 +7,7 @@
     Steel: 50
 
 - type: latheRecipe
-  parent: BaseTileRecipe
+  parent: BaseTileDepartmentalRecipe
   id: FloorTileItemChapelNE
   result: FloorTileItemChapelNE
   materials:

@@ -3,10 +3,68 @@
 - type: latheRecipePack
   id: FloorTilesStaticImp
   recipes:
-  - FloorTileItemTechmaintDark
   - FloorTileItemApid
+  - FloorTileItemCraftedAsphalt
+  - FloorTileItemBlue
+  - FloorTileItemMiningLight
+  - FloorTileItemLime 
+  - FloorTileItemLino
+  - FloorTileItemMono 
+  - FloorTileItemRockVault
+  - FloorTileItemMetalDiamond
+  - FloorTileItemUraniumMarble
+  - FloorTileItemPlasmaMarble
+
+- type: latheRecipePack
+  id: FloorDarkTilesStaticImp
+  recipes: 
+  - FloorTileItemMiningDark
+  - FloorTileItemElevatorShaft
+  - FloorTileItemTechmaintDark
+
+- type: latheRecipePack
+  id: FloorTilesCarpetStaticImp
+  recipes:
+  - FloorTileItemArcadeBlue
+  - FloorTileItemArcadeBlue2
+  - FloorTileItemCarpetClown
+  - FloorTileItemEighties
+  - FloorTileItemCarpetOffice
+  - FloorTileItemArcadeRed
+
+- type: latheRecipePack
+  id: FloorTilesDepartmentalStaticImp
+  recipes:
+  - FloorTileItemBar
+  - FloorTileItemClown
+  - FloorTileItemFreezer
+  - FloorTileItemHydro
+  - FloorTileItemKitchen
+  - FloorTileItemLaundry
+  - FloorTileItemMime
+  - FloorTileItemShowroom
+  - FloorTileItemBoxing
+  - FloorTileItemGym
   - FloorTileItemChapelNE
   - FloorTileItemChapelNW
   - FloorTileItemChapelSE
   - FloorTileItemChapelSW
-  - FloorTileItemCraftedAsphalt
+
+- type: latheRecipePack
+  id: FloorTilesShuttleStaticImp
+  recipes:
+  - FloorTileItemShuttleBlack
+  - FloorTileItemShuttleBlue
+  - FloorTileItemShuttleGrey
+  - FloorTileItemShuttleOrange
+  - FloorTileItemShuttlePurple
+  - FloorTileItemShuttleRed
+  - FloorTileItemShuttleWhite
+
+- type: latheRecipePack
+  id: FloorTilesSpecialStaticImp
+  recipes: 
+  - FloorTileItemBrassFilled
+  - FloorTileItemBrassReebe
+  - FloorTileItemGold
+  - FloorTileItemSilver

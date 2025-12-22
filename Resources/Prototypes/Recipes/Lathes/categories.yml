@@ -114,6 +114,22 @@
   id: Marble
   name: lathe-category-marble
 
+- type: latheCategory #imp changes start
+  id: Carpet
+  name: lathe-category-carpet
+
+- type: latheCategory
+  id: Departmental
+  name: lathe-category-departmental
+
+- type: latheCategory
+  id: Shuttle
+  name: lathe-category-shuttle
+
+- type: latheCategory
+  id: Special
+  name: lathe-category-special # imp changes end
+
 # Science
 - type: latheCategory
   id: Mech
