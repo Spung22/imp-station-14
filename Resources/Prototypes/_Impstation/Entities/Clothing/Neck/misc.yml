@@ -20,6 +20,9 @@
     proto: lawyerblue
   - type: WearerGetsExamineText
     thingType: obvious-type-law-defense
+  - type: PhysicalComposition
+    materialComposition:
+      Gold: 100
 
 # Senior lawyer armbands
 - type: entity
@@ -34,6 +37,10 @@
     sprite: _Impstation/Clothing/Neck/Misc/lawyerarmband.rsi
   - type: WearerGetsExamineText
     thing: obvious-thing-armband
+  - type: PhysicalComposition
+    materialComposition:
+      Gold: 50 #the badge is smaller
+      Cloth: 100
 
 - type: entity
   parent: ClothingNeckProsecutorbadge
@@ -47,6 +54,10 @@
     sprite: _Impstation/Clothing/Neck/Misc/prosecutorarmband.rsi
   - type: WearerGetsExamineText
     thing: obvious-thing-armband
+  - type: PhysicalComposition
+    materialComposition:
+      Gold: 50 #the badge is smaller
+      Cloth: 100
 
 - type: entity
   parent: ClothingNeckDefenseAttorneyBadge
@@ -62,6 +73,10 @@
     proto: lawyerblue
   - type: WearerGetsExamineText
     thing: obvious-thing-armband
+  - type: PhysicalComposition
+    materialComposition:
+      Gold: 50 #the badge is smaller
+      Cloth: 100
 
 # your angel or your devil
 - type: entity

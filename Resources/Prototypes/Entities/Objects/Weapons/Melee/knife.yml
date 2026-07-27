@@ -72,6 +72,10 @@
         friction: 0.2
   - type: ThrowingAngle # imp
     angle: 225
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 100
+      Plastic: 25 #imp edit end
 
 - type: entity
   name: butcher's cleaver
@@ -118,6 +122,10 @@
     staminaCost: 7.5
   - type: ThrowingAngle
     angle: 315
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 150
+      Plastic: 25
   # end imp edits #
 
 - type: entity
@@ -294,6 +302,10 @@
         friction: 0.2
   - type: ThrowingAngle # imp
     angle: 200
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Glass: 25
+      Cloth: 25 #imp edit end
 
 - type: entity
   name: reinforced shiv
@@ -313,6 +325,11 @@
     sprite: Objects/Weapons/Melee/reinforced_shiv.rsi
   - type: Sprite
     sprite: Objects/Weapons/Melee/reinforced_shiv.rsi
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Glass: 25
+      Steel: 25
+      Cloth: 25 #imp edit end
 
 - type: entity
   name: plasma shiv
@@ -332,6 +349,11 @@
     sprite: Objects/Weapons/Melee/plasma_shiv.rsi
   - type: Sprite
     sprite: Objects/Weapons/Melee/plasma_shiv.rsi
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Glass: 25
+      Plasma: 25
+      Cloth: 25 #imp edit end
 
 - type: entity
   name: uranium shiv
@@ -352,6 +374,11 @@
     sprite: Objects/Weapons/Melee/uranium_shiv.rsi
   - type: Sprite
     sprite: Objects/Weapons/Melee/uranium_shiv.rsi
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Glass: 25
+      Uranium: 25
+      Cloth: 25 #imp edit end
 
 - type: entity
   name: throwing knife

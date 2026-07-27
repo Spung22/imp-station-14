@@ -40,6 +40,10 @@
   - type: Item
     size: Small
     storedRotation: 90
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Steel: 100
+      Cloth: 150 #imp edits end
 
 - type: entity
   parent: BaseHandheldInstrument
@@ -97,6 +101,10 @@
   - type: Item
     size: Small
     storedRotation: -90
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Steel: 100
+      Plastic: 150 #imp edits end
 
 - type: entity
   parent: BaseHandheldInstrument
@@ -111,6 +119,9 @@
     program: 126
   - type: Item
     size: Tiny
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Steel: 50 #imp edits end
 
 - type: entity
   parent: BaseHandheldInstrument
@@ -129,6 +140,10 @@
     tags:
     - Sidearm
     - BrassInstrument
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Steel: 100
+      Plastic: 150 #imp edits end
 
 - type: entity
   parent: BaseHandheldInstrument
@@ -150,6 +165,10 @@
   - type: Clothing
     slots: [Belt]
     quickEquip: false
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Gold: 100 
+      Steel: 100 #imp edits end
 
 - type: entity
   parent: PhoneInstrument

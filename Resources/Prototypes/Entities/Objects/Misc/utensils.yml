@@ -30,6 +30,9 @@
         Blunt: 0
   - type: DamageOtherOnHit # imp
     staminaCost: 2.5
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 25 #imp edit end
 
 - type: entity
   parent: UtensilBase
@@ -63,6 +66,9 @@
   - type: EmbedPassiveDamage
   - type: ThrowingAngle
     angle: 180
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 25
   # end imp edits #
 
 - type: entity
@@ -110,6 +116,9 @@
   - type: DamageOtherOnHit
   - type: ThrowingAngle
     angle: 180
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 25
   # end imp edits #
 
 - type: entity
@@ -194,4 +203,7 @@
   - type: DamageOtherOnHit
   - type: ThrowingAngle
     angle: 180
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 25
   # end imp edits #

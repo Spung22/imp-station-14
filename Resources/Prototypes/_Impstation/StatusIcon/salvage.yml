@@ -61,3 +61,51 @@
   icon:
     sprite: /Textures/_Impstation/Interface/Misc/salvage_icons.rsi
     state: Diamond
+
+- type: materialCompositionIcon
+  id: Bananium
+  priority: 5
+  locationPreference: left
+  icon:
+    sprite: /Textures/_Impstation/Interface/Misc/salvage_icons.rsi
+    state: Bananium
+
+- type: materialCompositionIcon
+  id: Brass
+  priority: 5
+  locationPreference: left
+  icon:
+    sprite: /Textures/_Impstation/Interface/Misc/salvage_icons.rsi
+    state: Brass
+
+- type: materialCompositionIcon
+  id: Cardboard
+  priority: 5
+  locationPreference: left
+  icon:
+    sprite: /Textures/_Impstation/Interface/Misc/salvage_icons.rsi
+    state: Cardboard
+
+- type: materialCompositionIcon
+  id: Cloth
+  priority: 5
+  locationPreference: left
+  icon:
+    sprite: /Textures/_Impstation/Interface/Misc/salvage_icons.rsi
+    state: Cloth
+
+- type: materialCompositionIcon
+  id: Paper
+  priority: 5
+  locationPreference: left
+  icon:
+    sprite: /Textures/_Impstation/Interface/Misc/salvage_icons.rsi
+    state: Paper
+
+- type: materialCompositionIcon
+  id: Wood
+  priority: 5
+  locationPreference: left
+  icon:
+    sprite: /Textures/_Impstation/Interface/Misc/salvage_icons.rsi
+    state: Wood

@@ -28,6 +28,9 @@
     - state: led
       map: [ "enum.PowerCellVisualLayers.Base" ]
       visible: false
+    - type: PhysicalComposition
+      materialComposition:
+        Steel: 100
 
 - type: entity
   parent: BaseVapeDisposable

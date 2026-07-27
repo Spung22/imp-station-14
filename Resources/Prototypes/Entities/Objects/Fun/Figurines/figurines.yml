@@ -536,6 +536,10 @@
       params:
         volume: -5
         maxDistance: 10
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 100
+      Uranium: 10 #imp edit end
 
 - type: entity
   parent: BaseFigurine

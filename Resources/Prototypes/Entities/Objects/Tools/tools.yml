@@ -275,6 +275,10 @@
     - type: GuideHelp
       guides:
       - Networking
+    - type: PhysicalComposition #imp edit start
+      materialComposition:
+        Steel: 100
+        Plastic: 100 #imp edit end
 
 #Power tools
 #Later on these should switch probably switch damage when changing the tool behavior.

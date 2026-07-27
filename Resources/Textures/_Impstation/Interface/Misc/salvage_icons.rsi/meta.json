@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "All sprites are edits of existing material sprites in /Textures/Objects/Materials, made by ruddygreat (github)",
+    "copyright": "All sprites are edits of existing material sprites in /Textures/Objects/Materials, Steel to Uranium made by ruddygreat (github), Bananium to Wood made by Spung2 (github)",
     "size": {
         "x": 8,
         "y": 8
@@ -30,6 +30,24 @@
         },
         {
             "name": "Diamond"
+        },
+        {
+            "name": "Bananium"
+        },
+        {
+            "name": "Brass"
+        },
+        {
+            "name": "Cardboard"
+        },
+        {
+            "name": "Cloth"
+        },
+        {
+            "name": "Paper"
+        },
+        {
+            "name": "Wood"
         }
     ]
 }

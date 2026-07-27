@@ -20,7 +20,6 @@
   - ChemistryEmptyVialSmall
   - ConicalFlask #Imp
   - LargeConicalFlask #Imp
-  - ChemSampleTube #Imp
   - Dropper
 
 - type: latheRecipePack
@@ -30,6 +29,7 @@
   - Jug
   - ChemistryEmptyBottle01
   - ClothingEyesGlassesChemical
+  - ChemSampleTube #Imp
 
 - type: latheRecipePack
   id: SurgeryStatic

@@ -63,6 +63,10 @@
     - type: Tag
       tags:
         - DroneUsable
+    - type: PhysicalComposition #imp edit start
+      materialComposition:
+        Wood: 50
+        Steel: 25 #imp edit end
 
 - type: entity
   name: mousetrap

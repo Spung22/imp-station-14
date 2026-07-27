@@ -81,6 +81,10 @@
     damage:
       types:
         Piercing: 35
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 25
+      Cloth: 25 #imp edit end
 
 - type: entity
   parent: BaseArrow
@@ -107,6 +111,11 @@
   - type: Construction
     graph: ImprovisedArrow
     node: ImprovisedArrow
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Glass: 25
+      Steel: 25
+      Cloth: 25 #imp edit end
 
 - type: entity
   parent: BaseArrow
@@ -133,6 +142,12 @@
   - type: Construction
     graph: ImprovisedArrowPlasma
     node: ImprovisedArrowPlasma
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Glass: 25
+      Plasma: 25
+      Steel: 25
+      Cloth: 25 #imp edit end
 
 - type: entity
   parent: BaseArrow
@@ -160,6 +175,12 @@
   - type: Construction
     graph: ImprovisedArrowUranium
     node: ImprovisedArrowUranium
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Glass: 25
+      Uranium: 25
+      Steel: 25
+      Cloth: 25 #imp edit end
 
 - type: entity
   parent: BaseArrow
@@ -186,6 +207,11 @@
   - type: Construction
     graph: ImprovisedArrowCarp
     node: ImprovisedArrowCarp
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      ToothSpaceCarp: 25 #no idea if this will work
+      Steel: 25
+      Cloth: 25 #imp edit end
 
 - type: entity
   parent: BaseArrow
@@ -214,3 +240,7 @@
   - type: Construction
     graph: CardArrow
     node: CardArrow
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Cardboard: 25
+      Cloth: 25 #imp edit end

@@ -48,3 +48,6 @@
     damage:
       types:
         Blunt: 4
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 25 #imp edit end

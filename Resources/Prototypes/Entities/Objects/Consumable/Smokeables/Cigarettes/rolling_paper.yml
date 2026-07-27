@@ -21,6 +21,9 @@
     state: cigpapers
   - type: Item
     sprite: Objects/Consumable/Smokeables/Cigarettes/paper.rsi
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Cardboard: 50 #imp edit end
 
 - type: entity
   parent: PackPaperRolling
@@ -58,6 +61,9 @@
     - RollingPaper
     - Trash
   - type: SpaceGarbage
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Paper: 10 #imp edit end
 
 - type: entity
   id: PaperRolling1
@@ -87,6 +93,10 @@
     tags:
     - CigFilter
     - Trash
+  - type: SpaceGarbage
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Paper: 10 #imp edit end
 
 - type: entity
   id: CigaretteFilter1

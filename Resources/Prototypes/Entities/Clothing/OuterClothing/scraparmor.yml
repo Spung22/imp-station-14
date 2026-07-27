@@ -83,3 +83,7 @@
   - type: Construction
     graph: scraparmor
     node: scraparmorfinished
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 1700
+      Cloth: 150 #imp edit end

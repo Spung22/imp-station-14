@@ -414,6 +414,9 @@
     soundHit: /Audio/Animals/bear.ogg
     staminaCost: 50
   - type: MultiHandedItem
+  - type: PhysicalComposition
+    materialComposition:
+      Cloth: 1000 #bigger then the average plushie
 
 - type: entity
   parent: BasePlushie
@@ -535,6 +538,11 @@
       CottonBurger: WeirdThavenPlushie
   - type: Physics
     bodyType: KinematicController
+  - type: PhysicalComposition
+    materialComposition:
+      Cloth: 200
+    chemicalComposition: 
+      Milk: 15
 
 - type: entity
   parent: BasePlushie
@@ -929,6 +937,11 @@
     soundHit: /Audio/_Impstation/Voice/Gray/gray_cough.ogg
     staminaCost: 50
   - type: MultiHandedItem
+  - type: PhysicalComposition
+    materialComposition:
+      Cloth: 1000 #bigger then the average plushie
+    chemicalComposition: 
+      Sadness: 10
 
 - type: entity
   parent: BaseFigurine # actually a plushie but this saves me some yaml
@@ -1279,6 +1292,9 @@
     sound:
       path: /Audio/_Impstation/Voice/Anomalocarid/anomalocarid_scream.ogg
   - type: MultiHandedItem
+  - type: PhysicalComposition
+    materialComposition:
+      Cloth: 1000 #bigger then the average plushie
 
 - type: entity
   parent: PlushieImpOld

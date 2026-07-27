@@ -16,6 +16,9 @@
     program: 9
   - type: Sprite
     sprite: Objects/Fun/Instruments/glockenspiel.rsi
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Steel: 400 #imp edits end
 
 - type: entity
   parent: BasePercussionInstrument
@@ -29,6 +32,10 @@
     sprite: Objects/Fun/Instruments/musicbox.rsi
   - type: Item
     size: Small
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Wood: 200
+      Paper: 50 #imp edits end
 
 - type: entity
   parent: BasePercussionInstrument
@@ -41,6 +48,9 @@
   - type: Sprite
     sprite: Objects/Fun/Instruments/structureinstruments.rsi
     state: xylophone
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Wood: 400 #imp edits end
 
 - type: entity
   parent: BaseHandheldInstrument
@@ -74,6 +84,9 @@
     quickEquip: false
     slots:
     - neck
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Steel: 200 #imp edits end
 
 - type: entity
   parent: BasePercussionInstrument
@@ -85,6 +98,9 @@
     program: 115
   - type: Sprite
     sprite: Objects/Fun/Instruments/woodblock.rsi
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Wood: 200 #imp edits end
 
 - type: entity
   parent: BasePercussionInstrument
@@ -96,3 +112,6 @@
     program: 119
   - type: Sprite
     sprite: Objects/Fun/Instruments/reversecymbal.rsi
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Steel: 300 #imp edits end

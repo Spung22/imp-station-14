@@ -37,6 +37,9 @@
     sprite: Objects/Specific/Janitorial/trashbag.rsi
   - type: Item
     size: Normal
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 50 #imp edit end
 
 - type: entity
   name: trash bag

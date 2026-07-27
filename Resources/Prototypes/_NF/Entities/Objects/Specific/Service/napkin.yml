@@ -91,6 +91,9 @@
   - type: TriggerOnInteractionPopupUse
   - type: ReplaceOnTrigger
     proto: TrashNapkin
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Paper: 10 # imp edit end
 
 - type: entity
   name: crumpled napkin
@@ -104,3 +107,6 @@
   - type: Tag
     tags:
     - Trash
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Paper: 10 # imp edit end

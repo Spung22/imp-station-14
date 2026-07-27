@@ -49,6 +49,9 @@
     - Honking
     useSound: *SoundBikeHorn
   - type: DamageOtherOnHit # imp
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 50 #imp edit end
 
 - type: entity
   parent: BaseItem
@@ -91,6 +94,9 @@
       types:
         Blunt: 5
   - type: DamageOtherOnHit # imp
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 50 #imp edit end
 
 - type: entity
   parent: BikeHorn
@@ -116,6 +122,10 @@
     energy: 2.2
     castShadows: false
     color: "#ffca1b"
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 50 
+      Gold: 50 #imp edit end
 
 - type: entity
   parent: BikeHorn
@@ -160,6 +170,10 @@
     node: bananiumHorn
   - type: Tool
     useSound: *SoundBananiumHorn
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 100
+      Bananium: 250 #imp edit end
 
 - type: entity
   parent: BaseItem
@@ -220,6 +234,9 @@
       collection: BaseWhistle
   - type: Whistle
     distance: 3
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 100 #imp edit end
 
 - type: entity
   parent: BaseWhistle
@@ -369,6 +386,9 @@
       params:
         volume: -9
         maxDistance: 3
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 100 #imp edit end
 
 - type: entity
   parent: BaseItem
@@ -396,6 +416,10 @@
     tags:
     - ClownRecorder
     - Payload
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 100
+      Plastic: 100 #imp edit end
 
 - type: entity
   parent: BaseItem
@@ -459,6 +483,9 @@
         density: 30
         mask:
         - ItemMask
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Cloth: 100 #imp edit end
 
 - type: entity
   parent: BaseItem

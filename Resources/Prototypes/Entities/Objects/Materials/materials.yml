@@ -716,6 +716,8 @@
   - type: Item
     sprite: Objects/Materials/silk.rsi
     heldPrefix: silk
+    materialComposition:
+      Cloth: 50 #imp edit end
 
 - type: entity
   parent: MaterialWebSilk

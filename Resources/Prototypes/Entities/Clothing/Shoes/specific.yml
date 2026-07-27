@@ -91,6 +91,10 @@
       - BananaClownshoes # imp
       - ClownShoes
       - WhitelistChameleon
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Bananium: 50
+      Cloth: 100 #imp edit end
 
 - type: entity
   parent: ClothingShoesClownBase
@@ -113,6 +117,10 @@
     energy: 2
     color: "#FFD800"
     netsync: false
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Bananium: 150
+      Cloth: 100 #imp edit end
 
 - type: entity
   parent: ClothingShoesBaseButcherable

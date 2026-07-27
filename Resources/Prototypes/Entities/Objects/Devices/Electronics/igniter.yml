@@ -30,3 +30,8 @@
   - type: Tag
     tags:
     - Igniter
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 150
+      Plastic: 50
+      Glass: 50 #imp edit end

@@ -487,6 +487,9 @@
     slots:
     - HEAD
     quickEquip: false
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Bananium: 5 #imp edit end
 
 - type: entity
   parent: TrashBananaPeel
@@ -548,6 +551,9 @@
   - type: Clothing
     sprite: Objects/Materials/materials.rsi
     equippedPrefix: peel
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Bananium: 50 #imp edit end
 
 - type: entity
   name: carrot

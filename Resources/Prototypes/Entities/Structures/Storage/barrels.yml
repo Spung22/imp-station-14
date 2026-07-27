@@ -53,6 +53,7 @@
   - type: AcousticData # VDS
     absorption: 20
     reflectRay: true
+  - type: NonMobStatusIcon #imp edit. for the salvohud
 
 - type: entity
   parent: BaseBarrelChem

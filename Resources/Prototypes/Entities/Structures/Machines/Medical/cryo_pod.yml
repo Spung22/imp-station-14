@@ -157,3 +157,4 @@
     materialComposition:
       Steel: 2000 # 20 sheets
       Glass: 1000 # 10 sheets
+  - type: NonMobStatusIcon #imp edit. for the salvohud

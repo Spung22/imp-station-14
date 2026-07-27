@@ -71,6 +71,9 @@
   - type: Construction
     graph: WoodenBat
     node: incompleteBat
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 350 #imp edit end
 
 - type: entity
   name: knockback stick

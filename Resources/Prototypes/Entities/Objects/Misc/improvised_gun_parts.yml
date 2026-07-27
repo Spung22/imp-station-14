@@ -16,6 +16,9 @@
       tags:
       - ModularReceiver
       - Metal
+    - type: PhysicalComposition #imp edit start
+      materialComposition:
+        Steel: 250 #imp edit end
 
 - type: entity
   parent: BaseItem
@@ -36,3 +39,6 @@
       tags:
       - RifleStock
       - Wooden
+    - type: PhysicalComposition #imp edit start
+      materialComposition:
+        Wood: 250 #imp edit end

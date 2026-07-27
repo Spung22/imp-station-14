@@ -47,6 +47,9 @@
     unlitIcon: match_unlit
     litIcon: match_lit
     burntIcon: match_burnt
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 10 #imp edit end
 
 - type: entity
   parent: Matchstick
@@ -109,6 +112,9 @@
     tags:
     - Trash
   - type: SpaceGarbage
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 150 #imp edit end
 
 - type: entity
   parent: [Matchbox, BaseSyndicateContraband]

@@ -588,6 +588,9 @@
     tags:
     - Shaker
   # imp end
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Glass: 25 #imp edit end
 
 - type: entity
   parent: BaseFoodShaker

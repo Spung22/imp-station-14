@@ -10,6 +10,9 @@
   - type: Item
     sprite: _Impstation/Objects/Fun/mechkit.rsi
     size: Small
+  - type: PhysicalComposition
+    materialComposition:
+      Plastic: 100
 
 #Ripley APLU
 - type: entity

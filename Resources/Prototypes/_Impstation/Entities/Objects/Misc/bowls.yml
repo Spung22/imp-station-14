@@ -51,6 +51,9 @@
           - Cigarette
           - Cigar
           - Trash
+  - type: PhysicalComposition
+    materialComposition:
+      Plastic: 100
 
 - type: entity
   parent: CandyBowl
@@ -103,3 +106,6 @@
           - Cigarette
           - Cigar
           - Trash
+  - type: PhysicalComposition
+    materialComposition:
+      Wood: 100

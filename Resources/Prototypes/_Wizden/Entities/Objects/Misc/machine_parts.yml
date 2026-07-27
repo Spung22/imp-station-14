@@ -9,6 +9,10 @@
     state: capacitor
   - type: Stack
     stackType: Capacitor
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 25
+      Steel: 25 #imp edit end
 
 - type: entity
   id: MatterBinStockPart
@@ -21,3 +25,7 @@
     state: matter_bin
   - type: Stack
     stackType: MatterBin
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 25
+      Steel: 25 #imp edit end

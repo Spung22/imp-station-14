@@ -20,3 +20,9 @@
   - type: Tag
     tags:
       - SGD
+  - type: PhysicalComposition #imp edit start, its already recycalable i am just making the materials correct
+    materialComposition:
+      Steel: 150
+      Glass: 150
+      Plastic: 50
+      Gold: 50 #imp edit end

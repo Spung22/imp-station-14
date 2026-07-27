@@ -119,6 +119,10 @@
     equippedFillBaseName: -fill-
     equippedMaxFillLevels: 1
   - type: EmbedPassiveDamage # imp
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 125
+      Glass: 25 #imp edit end
 
 
 - type: entity
@@ -140,6 +144,10 @@
         Piercing: 18
   - type: Construction
     graph: SpearReinforced
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 150
+      Glass: 25 #imp edit end
 
 - type: entity
   name: plasma spear
@@ -160,6 +168,11 @@
         Piercing: 21
   - type: Construction
     graph: SpearPlasma
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 125
+      Plasma: 25
+      Glass: 25 #imp edit end
 
 - type: entity
   name: uranium spear
@@ -182,6 +195,11 @@
         Radiation: 9
   - type: Construction
     graph: SpearUranium
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 125
+      Uranium: 25
+      Glass: 25 #imp edit end
 
 - type: entity
   name: bone spear
@@ -217,6 +235,9 @@
             max: 2
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Bones: 200 #prolly wont work but you never know, imp edit end
 
 - type: entity
   name: sharkminnow tooth spear
@@ -237,3 +258,6 @@
         Piercing: 25 #throw dmg enough to two-shot carp
   - type: Construction
     graph: SpearSharkMinnow
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 125 #imp edit end

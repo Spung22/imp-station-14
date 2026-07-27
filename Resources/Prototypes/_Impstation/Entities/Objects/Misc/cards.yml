@@ -1440,6 +1440,9 @@
           weight: 0.18
         - id: YumYumTippyTrumpcard
           weight: 0.01
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 50
 
 
 - type: entity
@@ -1479,6 +1482,9 @@
         reagents:
         - ReagentId: Fiber
           Quantity: 1
+  - type: PhysicalComposition
+    materialComposition:
+      Cardboard: 50
 
 - type: entity
   parent: CardBaseTippyTrump
@@ -1504,6 +1510,9 @@
     state: yumyum
   - type: StaticPrice # to do, make announceOnSale or something
     price: 10000
+  - type: PhysicalComposition
+    materialComposition:
+      Gold: 100
 
 
 - type: entity

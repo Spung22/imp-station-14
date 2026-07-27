@@ -26,3 +26,7 @@
       state: micro_mani
     - type: Stack
       stackType: Manipulator
+    - type: PhysicalComposition #imp edit start
+      materialComposition:
+        Plastic: 25
+        Steel: 25 #imp edit end

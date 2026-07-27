@@ -358,3 +358,4 @@
     - type: PhysicalComposition
       materialComposition:
         Steel: 1200 # 12 sheets
+    - type: NonMobStatusIcon #imp edit. for the salvohud

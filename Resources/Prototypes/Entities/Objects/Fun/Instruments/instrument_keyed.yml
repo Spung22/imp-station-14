@@ -22,6 +22,11 @@
     sprite: Objects/Fun/Instruments/h_synthesizer.rsi
   - type: StaticPrice
     price: 90
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Steel: 150
+      Plastic: 150
+      Glass: 50 #imp edits end
 
 - type: entity
   parent: BaseKeyedInstrument
@@ -60,6 +65,11 @@
       "Tango": {23: 0}
   - type: Sprite
     sprite: Objects/Fun/Instruments/accordion.rsi
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Wood: 200
+      Cardboard: 150
+      Plastic: 50 #imp edits end
 
 - type: entity
   parent: BaseKeyedInstrument
@@ -73,3 +83,7 @@
     sprite: Objects/Fun/Instruments/kalimba.rsi
   - type: Item
     size: Small
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Wood: 200
+      Steel: 100 #imp edits end

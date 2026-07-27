@@ -20,6 +20,9 @@
   - type: Appearance
   - type: BurnStateVisuals
     unlitIcon: unlit-icon
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 50 #imp edit end
 
 - type: entity
   id: SmokingPipeFilledTobacco

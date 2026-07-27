@@ -481,6 +481,9 @@
     tags:
     - PetWearable
     - CorgiWearable
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Paper: 50 #imp edit end
 
 - type: entity
   parent: ClothingHeadBase
@@ -1267,6 +1270,9 @@
     - WhitelistChameleon
     - HamsterWearable
     - DroneUsable #imp edit
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Cardboard: 100 #imp edit end
 
 - type: entity
   parent: ClothingHeadHatPartyRed

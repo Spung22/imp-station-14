@@ -63,6 +63,10 @@
     equippedPrefix: unlit
   - type: Item
     size: Tiny
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Paper: 10
+      Gold: 5 #imp edit end
 
 - type: entity
   id: CigarGoldSpent

@@ -27,3 +27,5 @@
         tags:
           - Structure
     - type: PhysicalComposition
+      materialComposition: #imp edit start
+        Plastic: 50 #imp edit end

@@ -11,6 +11,9 @@
   - type: Tag
     tags:
     - SurgeryTool
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 100 #(every surgery tool seems to cost 2 steel, update this if that ever changes) imp edit end
 
 # Cautery
 
@@ -132,6 +135,9 @@
         - ItemMask
         restitution: 0.3
         friction: 0.2
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Glass: 100 #imp edit end
 
 
 - type: entity
@@ -148,6 +154,9 @@
     damage:
       types:
         Slash: 12
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plasteel: 200 #(its more expenisve materials idk) imp edit end
 
 - type: entity
   name: laser scalpel

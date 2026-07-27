@@ -200,6 +200,10 @@
     preserve:
     - WeldingFuel
     quantity: 2
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 400
+      Plasma: 100
   # imp edit end
 
 - type: entity

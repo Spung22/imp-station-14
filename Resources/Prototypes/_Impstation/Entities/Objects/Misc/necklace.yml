@@ -26,6 +26,10 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+  - type: PhysicalComposition
+    materialComposition:
+      Gold: 200
+  - type: NonMobStatusIcon #for the salvohud
 
 - type: entity
   id: HeartLocketSilver
@@ -39,3 +43,6 @@
     - state: heartlocket
   - type: Clothing
     sprite: _Impstation/Objects/Misc/heartlocketsilver.rsi
+  - type: PhysicalComposition
+    materialComposition:
+      Silver: 200

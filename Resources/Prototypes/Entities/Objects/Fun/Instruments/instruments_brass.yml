@@ -21,6 +21,9 @@
       "Muted": {59: 0}
   - type: Sprite
     sprite: Objects/Fun/Instruments/trumpet.rsi
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Brass: 300 #imp edits end
 
 - type: entity
   parent: BaseBrassInstrument
@@ -32,6 +35,9 @@
     program: 57
   - type: Sprite
     sprite: Objects/Fun/Instruments/trombone.rsi
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Brass: 400 #imp edits end
 
 - type: entity
   parent: BaseBrassInstrument
@@ -43,6 +49,9 @@
     program: 60
   - type: Sprite
     sprite: Objects/Fun/Instruments/frenchhorn.rsi
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Brass: 300 #imp edits end
 
 - type: entity
   parent: BaseBrassInstrument
@@ -55,3 +64,6 @@
     bank: 100 # Defined in space-station-14.sf2
   - type: Sprite
     sprite: Objects/Fun/Instruments/euphonium.rsi
+  - type: PhysicalComposition #imp edits start
+    materialComposition:
+      Brass: 450 #imp edits end

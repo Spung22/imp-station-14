@@ -84,3 +84,7 @@
   - type: Construction
     graph: scraphelmet
     node: scraphelmet
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 600
+      Plastic: 50 #imp edit end

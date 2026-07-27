@@ -17,6 +17,9 @@
     tags:
     - Chopsticks
     - Trash
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 25 #imp edit end
 
 - type: entity
   parent: BaseItem
@@ -37,3 +40,6 @@
     - Chopsticks
     - Trash
     - Dinnerware # imp
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 25 #imp edit end

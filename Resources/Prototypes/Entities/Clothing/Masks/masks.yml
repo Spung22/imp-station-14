@@ -291,6 +291,9 @@
   - type: HideLayerClothing
     slots:
     - Snout
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Bananium: 50 #imp edit end
 
 - type: entity
   parent: ClothingMaskClownChameleonSecurity #imp edit

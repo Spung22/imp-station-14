@@ -12,3 +12,6 @@
     size: Ginormous
   - type: StaticPrice
     price: 0
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 100 #imp edit end

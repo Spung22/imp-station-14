@@ -50,3 +50,6 @@
   - type: Tag
     tags:
       - Trash
+  - type: PhysicalComposition
+    materialComposition:
+      Wood: 150

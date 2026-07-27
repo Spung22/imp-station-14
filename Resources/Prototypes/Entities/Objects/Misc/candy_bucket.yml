@@ -41,3 +41,6 @@
   # to prevent bag open/honk spam
   - type: UseDelay
     delay: 0.5
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 100 #imp edit end

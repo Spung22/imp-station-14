@@ -24,6 +24,9 @@
   - type: WearerGetsExamineText # imp
     thing: obvious-thing-medal
     examineText: obvious-x-medal-nothing
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Gold: 100 #imp edit end, its already recycleable im just making it make sense
 
 
 

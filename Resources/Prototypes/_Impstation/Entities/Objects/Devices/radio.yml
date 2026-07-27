@@ -18,3 +18,7 @@
     interfaces:
       enum.HandheldRadioUiKey.Key:
         type: HandheldRadioBoundUserInterface
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+      Plastic: 100

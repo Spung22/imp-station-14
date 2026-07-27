@@ -434,6 +434,9 @@
   - type: Tag
     tags:
     - Trash
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Paper: 25 #imp edit end
 
 - type: entity
   name: popsicle stick

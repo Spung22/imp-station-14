@@ -68,6 +68,9 @@
     - Bowl
     - Trash
     - Dinnerware # imp
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Glass: 100 #imp edit end
 
 - type: entity
   parent: BaseItem
@@ -108,3 +111,6 @@
   - type: Tag
     tags:
     - Bowl
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Glass: 100 #imp edit end

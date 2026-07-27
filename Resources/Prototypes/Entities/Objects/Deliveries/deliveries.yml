@@ -107,6 +107,9 @@
   - type: Tag
     tags:
       - PackageDelivery
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Cardboard: 300 #imp edit end
 
 - type: entity
   parent: [BaseDelivery, DepartmentalLetters] # IMP - add DepartmentalLetters

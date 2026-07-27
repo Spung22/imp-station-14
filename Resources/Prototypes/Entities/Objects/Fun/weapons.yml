@@ -318,6 +318,9 @@
       sprite: Objects/Fun/card_sword.rsi
     shape:
     - 0,0,1,3
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Cardboard: 300 #imp edit end
 
 - type: entity
   parent: [ BaseItem, BaseToySword ]

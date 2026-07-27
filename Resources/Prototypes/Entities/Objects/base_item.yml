@@ -44,6 +44,7 @@
     noRot: false
   - type: Pullable
   - type: DamageExaminable
+  - type: NonMobStatusIcon #imp edit. for the salvohud
 
 - type: entity
   name: "storage item"

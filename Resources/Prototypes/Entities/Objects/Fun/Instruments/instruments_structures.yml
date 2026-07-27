@@ -9,6 +9,10 @@
   - type: Sprite
     state: piano
   - type: Climbable
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 1500
+      Steel: 350 #imp edit end
 
 - type: entity
   name: upright piano
@@ -21,6 +25,10 @@
   - type: Sprite
     state: piano-upright
   - type: Climbable
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 1500
+      Steel: 350 #imp edit end
 
 - type: entity
   name: vibraphone
@@ -32,6 +40,9 @@
     program: 11
   - type: Sprite
     state: vibraphone
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 650 #imp edit end
 
 - type: entity
   name: marimba
@@ -42,6 +53,9 @@
     program: 12
   - type: Sprite
     state: marimba
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 650 #imp edit end
 
 - type: entity
   name: church organ
@@ -53,6 +67,10 @@
     program: 19
   - type: Sprite
     state: church-organ
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 2000
+      Steel: 1000 #imp edit end
 
 - type: entity
   name: tuba
@@ -64,6 +82,9 @@
     program: 58
   - type: Sprite
     state: tuba
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Brass: 1500 #imp edit end
 
 - type: entity
   id: HarpInstrument
@@ -75,6 +96,10 @@
     program: 46
   - type: Sprite
     state: harp
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 1000
+      Cloth: 500 #imp edit end
 
 - type: entity
   id: TimpaniInstrument
@@ -86,6 +111,10 @@
     program: 47
   - type: Sprite
     state: timpani
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 800
+      Steel: 400  #imp edit end
 
 - type: entity
   id: TaikoInstrument
@@ -97,6 +126,9 @@
     program: 116
   - type: Sprite
     state: taiko
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 800 #imp edit end
 
 - type: entity
   id: ContrabassInstrument
@@ -124,6 +156,9 @@
         - HighImpassable
         - MidImpassable
         - BulletImpassable
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 650 #imp edit end
 
 - type: entity
   name: minimoog
@@ -135,6 +170,10 @@
     program: 81
   - type: Sprite
     state: minimoog
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 450
+      Steel: 800 #imp edit end
 
 - type: entity
   id: TomDrumsInstrument
@@ -146,6 +185,9 @@
     program: 117
   - type: Sprite
     state: toms
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 650 #imp edit end
 
 - type: entity
   parent: [ BasePlaceableInstrumentRotatable, ConstructibleMachine]
@@ -168,3 +210,7 @@
   - type: Instrument
     allowPercussion: true
     allowProgramChange: true
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 1000
+      Glass: 500 #imp edit end

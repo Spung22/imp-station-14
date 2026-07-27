@@ -347,6 +347,9 @@
     - type: Fiber
       fiberColor: fibers-white
     - type: DnaSubstanceTrace
+    - type: PhysicalComposition
+      materialComposition:
+        Cloth: 100
 
 - type: entity
   parent: BaseItem

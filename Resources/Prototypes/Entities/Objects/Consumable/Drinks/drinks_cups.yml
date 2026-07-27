@@ -104,6 +104,9 @@
     sprite: Clothing/Head/Hats/party_water_cup.rsi
   - type: SpillWhenWorn
     solution: drink
+  - type: PhysicalComposition #imp edit start, changed from cardboard to paper
+    materialComposition:
+      Paper: 25 #imp edit end
 
 # Mugs
 - type: entity

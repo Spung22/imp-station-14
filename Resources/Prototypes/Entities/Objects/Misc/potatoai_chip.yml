@@ -15,3 +15,7 @@
     - type: Construction
       graph: PotatoAIChip
       node: potatoaichip
+    - type: PhysicalComposition # imp edit start
+      materialComposition:
+        Steel: 150
+        Glass: 50 # imp edit end

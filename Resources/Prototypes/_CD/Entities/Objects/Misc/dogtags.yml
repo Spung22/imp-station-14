@@ -15,3 +15,6 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 100 #imp edit end

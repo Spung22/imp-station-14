@@ -221,6 +221,10 @@
     modifiers:
       coefficients:
         Radiation: 0.8
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Bananium: 50
+      Cloth: 100 #imp edit end
 
 - type: entity
   parent: ClothingUniformBase

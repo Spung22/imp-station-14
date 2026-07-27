@@ -31,6 +31,11 @@
         reagents:
           - ReagentId: Saxoite
             Quantity: 10
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Brass: 500
+    chemicalComposition: 
+      Saxoite: 10 #imp edit end
 
 - type: entity
   parent: BaseWoodwindInstrument
@@ -54,6 +59,9 @@
     tags:
     - BorgNeck
     - WoodwindInstrument
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 300 #imp edit end
 
 - type: entity
   parent: BaseWoodwindInstrument
@@ -65,6 +73,10 @@
     program: 71
   - type: Sprite
     sprite: Objects/Fun/Instruments/clarinet.rsi
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 300
+      Silver: 50 #imp edit end
 
 - type: entity
   parent: BaseWoodwindInstrument
@@ -76,6 +88,9 @@
     program: 73
   - type: Sprite
     sprite: Objects/Fun/Instruments/flute.rsi
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Silver: 250 #imp edit end
 
 - type: entity
   parent: BaseWoodwindInstrument
@@ -87,6 +102,9 @@
     program: 74
   - type: Sprite
     sprite: Objects/Fun/Instruments/recorder.rsi
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 300 #imp edit end
 
 - type: entity
   parent: BaseWoodwindInstrument
@@ -111,6 +129,9 @@
     tags:
     - BorgNeck
     - WoodwindInstrument
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 300 #imp edit end
 
 #if you change this to some cringe-ass zelda reference so help me god i will shoot you dead.
 - type: entity
@@ -125,6 +146,9 @@
     sprite: Objects/Fun/Instruments/ocarina.rsi
   - type: Item
     size: Small
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Glass: 300 #imp edit end
 
 - type: entity
   parent: BaseWoodwindInstrument
@@ -138,3 +162,7 @@
     sprite: Objects/Fun/Instruments/bagpipes.rsi
   - type: Item
     size: Large
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Cloth: 400
+      Wood: 100 #imp edit end

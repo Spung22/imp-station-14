@@ -57,6 +57,9 @@
     entries:
       Burger: CigarBurger
       Hotdog: CigarBurger 
+  - type: PhysicalComposition
+    materialComposition:
+      Paper: 10
   # imp edit end
 
 - type: entity

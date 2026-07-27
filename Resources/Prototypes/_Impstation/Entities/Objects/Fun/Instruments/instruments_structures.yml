@@ -10,6 +10,10 @@
   - type: Sprite
     sprite: _Impstation/Objects/Fun/Instruments/theremin.rsi
     state: theremin
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 500
+      Wood: 250 #imp edit end
 
 - type: entity
   parent: BasePlaceableInstrumentRotatable
@@ -24,6 +28,9 @@
   - type: Sprite
     sprite: _Impstation/Objects/Fun/Instruments/drumkit.rsi
     state: drumkit
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 1500 #imp edit end
 
 - type: entity
   parent: BasePlaceableInstrumentRotatable
@@ -37,6 +44,10 @@
   - type: Sprite
     sprite: _Impstation/Objects/Fun/Instruments/hammondorgan.rsi
     state: hammondorgan
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 1500 
+      Steel: 600 #imp edit end
 
 - type: entity
   parent: BasePlaceableInstrumentRotatable
@@ -49,3 +60,7 @@
   - type: Sprite
     sprite: _Impstation/Objects/Fun/Instruments/dulcimer.rsi
     state: dulcimer
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Wood: 1000 
+      Steel: 300 #imp edit end

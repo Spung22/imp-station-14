@@ -469,3 +469,6 @@
     tags:
     - Trash
   - type: SpaceGarbage
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Paper: 50 #imp edit end

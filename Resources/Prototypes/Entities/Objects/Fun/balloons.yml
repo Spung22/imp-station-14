@@ -21,6 +21,9 @@
   - type: Tag
     tags:
     - Balloon
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 150 #imp edit end
 
 - type: entity
   parent: BaseBalloon

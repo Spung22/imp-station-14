@@ -79,6 +79,11 @@
     damage:
       types:
         Blunt: 6
+  - type: PhysicalComposition # imp edit
+    materialComposition:
+      Steel: 50
+      Plastic: 50
+      Glass: 50 # imp edit end
 
 - type: entity
   name: seclite

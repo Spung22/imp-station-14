@@ -148,6 +148,9 @@
     destroyOnEmpty: false
     useSound:
       path: /Audio/Items/eating_1.ogg
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 100 #imp edit end
 
 - type: entity
   parent: FoodDoughFlat

@@ -82,3 +82,6 @@
           - Cigar
           - Trash
         # imp edit end
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Glass: 100 #imp edit end

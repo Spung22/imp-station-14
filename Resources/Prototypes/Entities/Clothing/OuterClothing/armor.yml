@@ -521,3 +521,6 @@
   - type: Construction
     graph: cardArmour
     node: cardarmour
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Cardboard: 500 #imp edit end

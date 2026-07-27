@@ -15,6 +15,9 @@
     slots:
     - neck
   - type: Stethoscope
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 100 #imp edit end
 
 - type: entity
   parent: BaseAction
@@ -44,6 +47,9 @@
     sprite: Clothing/Neck/Misc/bling.rsi
   - type: Item
     sprite: Clothing/Neck/Misc/bling.rsi
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Gold: 100 #imp edit end
 
 - type: entity
   parent: [ ClothingNeckBase, BaseObviousBadge ] # imp
@@ -59,6 +65,9 @@
     proto: lawyer
   - type: WearerGetsExamineText # imp
     thingType: obvious-type-law
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Gold: 100 #imp edit end
 
 - type: entity
   parent: ClothingNeckBase
@@ -75,3 +84,6 @@
     tags:
     - Trash
     - WhitelistChameleon
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 10 #imp edit end

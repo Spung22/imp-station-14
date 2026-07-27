@@ -19,6 +19,9 @@
   - type: WearerGetsExamineText # imp
     thing: obvious-thing-pin
     examineText: obvious-desc-default
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 50 #imp edit end
 
 - type: entity
   parent: ClothingNeckPinBase
@@ -305,6 +308,10 @@
     equippedPrefix: goldautism
   - type: WearerGetsExamineText # imp
     thingType: obvious-type-pride-aut
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 50
+      Gold: 25 #imp edit end
 
 - type: entity
   parent: BaseItem
@@ -357,3 +364,6 @@
     actions:
     - ActionShootWater
     activeIfWorn: true
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Cloth: 50 #imp edit end

@@ -26,6 +26,11 @@
   - type: Item
     sprite: Objects/Tools/Cowtools/haycutters.rsi
   - type: CowTool #imp edit, lets ungus use this with the speed of a normal tool
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 100
+    chemicalComposition: 
+      Milk: 10 #imp edit end
 
 - type: entity
   name: moodriver
@@ -53,6 +58,11 @@
     tags:
       - Screwdriver
   - type: CowTool #imp edit, lets ungus use this with the speed of a normal tool
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 100
+    chemicalComposition: 
+      Milk: 10 #imp edit end
 
 - type: entity
   name: wronch
@@ -80,6 +90,11 @@
     tags:
       - Wrench
   - type: CowTool #imp edit, lets ungus use this with the speed of a normal tool
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 100
+    chemicalComposition: 
+      Milk: 10 #imp edit end
 
 - type: entity
   name: cowbar
@@ -113,6 +128,11 @@
       - Crowbar
   - type: CowTool #imp edit, lets ungus use this with the speed of a normal tool
   - type: CowToolTileCompatible #imp edit, same as above, but for tiles
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 100
+    chemicalComposition: 
+      Milk: 10 #imp edit end
 
 - type: entity
   name: mooltitool
@@ -131,6 +151,12 @@
   - type: Tag
     tags:
       - Multitool
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 100
+      Plastic: 100
+    chemicalComposition: 
+      Milk: 10 #imp edit end
 
 - type: entity
   name: cowelding tool
@@ -146,6 +172,11 @@
   - type: Tool
     speedModifier: 0.05
   - type: CowTool #imp edit, lets ungus use this with the speed of a normal tool
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 200
+    chemicalComposition: 
+      Milk: 10 #imp edit end
 
 - type: entity
   name: milkalyzer
@@ -168,6 +199,12 @@
       enum.GasAnalyzerUiKey.Key:
         type: GasAnalyzerBoundUserInterface
   - type: Appearance
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 400
+      Glass: 100
+    chemicalComposition: 
+      Milk: 10 #imp edit end
 
 - type: entity
   name: cow toolbox

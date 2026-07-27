@@ -78,6 +78,9 @@
     tags:
     - Trash
   - type: SpaceGarbage
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Glass: 50 #imp edit end
 
 # Small Plate
 
@@ -129,6 +132,9 @@
     state: plate-small-trash
   - type: Item
     storedOffset: 0,-3
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Glass: 50 #imp edit end
 
 # Plastic Plate
 
@@ -154,6 +160,9 @@
     tags:
     - Trash
     - Dinnerware # imp
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 50 #imp edit end
 
 - type: entity
   parent: BaseItem
@@ -176,6 +185,9 @@
   - type: Tag
     tags:
     - Trash
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Glass: 25 #imp edit end
 
 # Pie Tin
 

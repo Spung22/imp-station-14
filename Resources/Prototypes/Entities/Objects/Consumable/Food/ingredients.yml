@@ -64,6 +64,9 @@
     damage:
       types:
         Blunt: 0
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Paper: 100 #imp edit end
 
 - type: entity
   abstract: true
@@ -267,6 +270,9 @@
           Quantity: 20
   - type: Edible
     edible: Drink # slurping sounds!
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 100 #imp edit end
 
 - type: entity
   parent: ReagentPacketBase
@@ -295,6 +301,9 @@
   - type: Tag
     tags:
       - Mayo
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 100 #imp edit end
 
 # - type: entity
 #   parent: ReagentPacketBase

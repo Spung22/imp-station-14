@@ -64,6 +64,9 @@
     - cigar7
     - cigar8
   - type: Appearance
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Steel: 200 # imp edit end
 
 - type: entity
   id: CigarGoldCase

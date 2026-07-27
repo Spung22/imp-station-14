@@ -13,6 +13,9 @@
     - Dice
   - type: Item
     size: Tiny
+  - type: PhysicalComposition
+    materialComposition:
+      Plastic: 50
 
 - type: entity
   parent: BaseDice
@@ -164,6 +167,9 @@
     whitelist:
       tags:
       - Dice
+  - type: PhysicalComposition
+    materialComposition:
+      Cloth: 100
 
 - type: entity
   parent: DiceBag

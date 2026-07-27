@@ -104,6 +104,9 @@
     - 6pack5
     - 6pack6
   - type: Appearance
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 100 #imp edit end
 
 # Bartender tools
 

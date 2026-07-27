@@ -59,6 +59,9 @@
     - tray4
     - tray5
     - tray6
+  - type: PhysicalComposition #imp edit start
+    materialComposition:
+      Plastic: 50 #imp edit end
 
 - type: entity
   parent: FoodBoxSushi

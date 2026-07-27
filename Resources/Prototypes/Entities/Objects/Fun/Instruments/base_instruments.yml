@@ -20,6 +20,7 @@
     size: Normal
   - type: StaticPrice
     price: 200
+  - type: NonMobStatusIcon #imp edit. for the salvohud
 
 #These are for instruments that are larger, can't be picked up, or have collision
 - type: entity
@@ -71,6 +72,7 @@
   - type: StaticPrice
     price: 300
   - type: RequireProjectileTarget
+  - type: NonMobStatusIcon #imp edit. for the salvohud
 
 - type: entity
   abstract: true
