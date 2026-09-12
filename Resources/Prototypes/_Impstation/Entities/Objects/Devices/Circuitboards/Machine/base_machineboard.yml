@@ -1,0 +1,27 @@
+- type: entity
+  id: BaseMachineCircuitboardGold
+  parent: BaseMachineCircuitboard
+  name: machine board
+  abstract: true
+  suffix: Machine Board
+  components:
+    - type: PhysicalComposition
+      materialComposition:
+        Glass: 230
+        Gold: 40
+      chemicalComposition:
+        Silicon: 20
+
+- type: entity
+  id: BaseMachineCircuitboardSilver
+  parent: BaseMachineCircuitboard
+  name: machine board
+  abstract: true
+  suffix: Machine Board
+  components:
+    - type: PhysicalComposition
+      materialComposition:
+        Glass: 230
+        Silver: 40
+      chemicalComposition:
+        Silicon: 20

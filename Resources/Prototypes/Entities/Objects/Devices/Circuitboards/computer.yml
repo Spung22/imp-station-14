@@ -266,6 +266,12 @@
     prototype: ComputerShuttleCargo
   - type: StealTarget
     stealGroup: CargoShuttleConsoleCircuitboard
+  - type: PhysicalComposition #imp start
+    materialComposition:
+      Glass: 230
+      Gold: 40
+    chemicalComposition:
+      Silicon: 20 #imp end
 
 - type: entity
   parent: BaseComputerCircuitboard
@@ -346,6 +352,12 @@
       prototype: ComputerAnalysisConsole
     - type: ComputerTabletopBoard # Frontier
       prototype: ComputerTabletopAnalysisConsole # Frontier
+    - type: PhysicalComposition #imp start
+      materialComposition:
+        Glass: 230
+        Gold: 40
+      chemicalComposition:
+        Silicon: 20 #imp end
 
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseScienceContraband ] #imp, contraband
@@ -357,6 +369,12 @@
     state: cpu_science
   - type: ComputerBoard
     prototype: ComputerTechnologyDiskTerminal
+  - type: PhysicalComposition #imp start
+    materialComposition:
+      Glass: 230
+      Gold: 40
+    chemicalComposition:
+      Silicon: 20 #imp end
 
 - type: entity
   parent: BaseComputerCircuitboard
@@ -517,6 +535,12 @@
     prototype: ComputerShuttle
   - type: ComputerTabletopBoard # Frontier
     prototype: ComputerTabletopShuttle # Frontier
+  - type: PhysicalComposition #imp start
+    materialComposition:
+      Glass: 230
+      Gold: 40
+    chemicalComposition:
+      Silicon: 20 #imp end
 
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseSyndicateContraband ]
@@ -528,6 +552,12 @@
     state: cpu_syndicate
   - type: ComputerBoard
     prototype: ComputerShuttleSyndie
+  - type: PhysicalComposition #imp start
+    materialComposition:
+      Glass: 230
+      Gold: 40
+    chemicalComposition:
+      Silicon: 20 #imp end
 
 - type: entity
   parent: BaseComputerCircuitboard

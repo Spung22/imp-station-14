@@ -12,7 +12,7 @@
         Glass: 1
 
 - type: entity
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   id: AutolatheHyperConvectionMachineCircuitboard
   name: hyper convection autolathe machine board
   description: A machine printed circuit board for a hyper convection autolathe.
@@ -46,7 +46,7 @@
         defaultPrototype: Beaker
 
 - type: entity
-  parent: [ BaseMachineCircuitboard, BaseScienceContraband ]
+  parent: [ BaseMachineCircuitboardGold, BaseScienceContraband ] #imp
   id: ProtolatheHyperConvectionMachineCircuitboard
   name: hyper convection protolathe machine board
   description: A machine printed circuit board for a hyper convection protolathe.
@@ -68,7 +68,7 @@
 
 - type: entity
   id: BiofabricatorMachineCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   name: biocube fabricator machine board
   description: A machine printed circuit board for a biocube fabricator.
   components:
@@ -150,7 +150,7 @@
         defaultPrototype: Beaker
 
 - type: entity
-  parent: [ BaseMachineCircuitboard, BaseScienceContraband ]
+  parent: [ BaseMachineCircuitboardGold, BaseScienceContraband ] #imp
   id: CircuitImprinterHyperConvectionMachineCircuitboard
   name: hyper convection circuit imprinter machine board
   description: A machine printed circuit board for a hyper convection circuit imprinter.
@@ -268,7 +268,7 @@
 
 - type: entity
   id: ArtifactAnalyzerMachineCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   name: artifact analyzer machine board
   description: A machine printed circuit board for an artifact analyzer.
   components:
@@ -283,7 +283,7 @@
 
 - type: entity
   id: ArtifactCrusherMachineCircuitboard
-  parent: [ BaseMachineCircuitboard, BaseScienceContraband ]
+  parent: [ BaseMachineCircuitboardGold, BaseScienceContraband ] #imp
   name: artifact crusher machine board
   description: A machine printed circuit board for an artifact crusher.
   components:
@@ -312,7 +312,7 @@
         PlasmaGlass: 10
 
 - type: entity
-  parent: [ BaseMachineCircuitboard, BaseScienceContraband ]
+  parent: [ BaseMachineCircuitboardGold, BaseScienceContraband ] #imp
   id: AnomalyVesselExperimentalCircuitboard
   name: experimental anomaly vessel machine board
   description: A machine printed circuit board for an experimental anomaly vessel.
@@ -328,7 +328,7 @@
       MetalRod: 4
 
 - type: entity
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardSilver #imp
   id: AnomalySynchronizerCircuitboard
   name: anomaly synchronizer machine board
   description: A machine printed circuit board for an anomaly synchronizer.
@@ -360,7 +360,7 @@
 
 - type: entity
   id: ThermomachineFreezerMachineCircuitBoard
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   name: freezer thermomachine machine board
   description: Looks like you could use a screwdriver to change the board type.
   components:
@@ -399,7 +399,7 @@
     node: heater
 
 - type: entity
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardSilver #imp
   id: HellfireFreezerMachineCircuitBoard
   name: hellfire freezer machine board
   description: Looks like you could use a screwdriver to change the board type.
@@ -470,7 +470,7 @@
 
 - type: entity
   id: SpaceHeaterMachineCircuitBoard
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   name: space heater machine board
   description: A machine printed circuit board for a space heater.
   components:
@@ -529,7 +529,7 @@
 
 - type: entity
   id: CryoPodMachineCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   name: cryo pod machine board
   description: A machine printed circuit board for a cryo pod.
   components:
@@ -543,7 +543,7 @@
 
 - type: entity
   id: ChemMasterMachineCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   name: ChemMaster 4000 machine board
   description: A machine printed circuit board for a ChemMaster 4000.
   components:
@@ -562,7 +562,7 @@
 
 - type: entity
   id: ChemDispenserMachineCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   name: chem dispenser machine board
   description: A machine printed circuit board for a chem dispenser.
   components:
@@ -581,7 +581,7 @@
 
 - type: entity
   id: BiomassReclaimerMachineCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   name: biomass reclaimer machine board
   description: A machine printed circuit board for a biomass reclaimer.
   components:
@@ -656,7 +656,7 @@
 
 - type: entity
   id: SMESAdvancedMachineCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   name: advanced SMES machine board
   description: A machine printed circuit board for an Advanced SMES.
   components:
@@ -783,6 +783,7 @@
     materialComposition:
       Steel: 30
       Plastic: 30
+      Gold: 30 #imp
 
 - type: entity
   id: SubstationMachineCircuitboard
@@ -977,7 +978,7 @@
 
 - type: entity
   id: StasisBedMachineCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   name: stasis bed machine board
   components:
     - type: Sprite
@@ -1046,7 +1047,7 @@
         Glass: 1
 
 - type: entity
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   id: OreProcessorIndustrialMachineCircuitboard
   name: industrial ore processor machine board
   components:
@@ -1118,7 +1119,7 @@
           examineName: construction-insert-info-examine-name-utensil
 
 - type: entity
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   id: FlatpackerMachineCircuitboard
   name: Flatpacker 1001 machine board
   components:
@@ -1247,7 +1248,7 @@
 
 - type: entity
   id: CargoTelepadMachineCircuitboard
-  parent: [ BaseMachineCircuitboard, BaseCargoContraband ]
+  parent: [ BaseMachineCircuitboardGold, BaseCargoContraband ] #imp
   name: cargo telepad machine board
   description: A machine printed circuit board for a cargo telepad.
   components:
@@ -1305,7 +1306,7 @@
       Cable: 2
 
 - type: entity
-  parent: [ BaseMachineCircuitboard, BaseCargoContraband ]
+  parent: [ BaseMachineCircuitboardGold, BaseCargoContraband ] #imp
   id: SalvageMagnetMachineCircuitboard
   name: salvage magnet machine board
   description: A machine printed circuit board for a salvage magnet.
@@ -1321,7 +1322,7 @@
       Cable: 2
 
 - type: entity
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   id: MiniGravityGeneratorCircuitboard
   name: mini gravity generator machine board
   description: A machine printed circuit board for a mini gravity generator.
@@ -1356,7 +1357,7 @@
       Uranium: 2
 
 - type: entity
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   id: ReagentGrinderIndustrialMachineCircuitboard
   name: industrial reagent grinder machine board
   components:

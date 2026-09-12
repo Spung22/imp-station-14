@@ -20,7 +20,7 @@
 
 - type: entity
   id: ShuttleGunPerforatorCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   name: LSE-1200c "Perforator" machine board
   description: A machine printed circuit board for an LSE-1200c "Perforator".
   suffix: DO NOT MAP, Machine Board
@@ -38,7 +38,7 @@
 
 - type: entity
   id: ShuttleGunFriendshipCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   name: EXP-320g "Friendship" machine board
   description: A machine printed circuit board for an EXP-320g "Friendship".
   suffix: DO NOT MAP, Machine Board
@@ -56,7 +56,7 @@
 
 - type: entity
   id: ShuttleGunDusterCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseMachineCircuitboardGold #imp
   name: EXP-2100g "Duster" machine board
   description: A machine printed circuit board for an EXP-2100g "Duster".
   suffix: DO NOT MAP, Machine Board
